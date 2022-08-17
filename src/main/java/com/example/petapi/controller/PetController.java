@@ -55,7 +55,7 @@ public class PetController {
     @DeleteMapping("/apt/deletePet/{id}")
     public ArrayList<Pet> DeletePet(@PathVariable int id){
         for(Pet petDelete : petList){
-            if(id == petDelete.getId()){
+            if(petDelete.getId()==id){
                 petList.remove(petDelete);
                 break;
             }
