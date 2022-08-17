@@ -52,7 +52,7 @@ public class PetController {
         return petList;
     }
 
-    @DeleteMapping("/apt/deletePet/{id}")
+    @DeleteMapping("/api/deletePet/{id}")
     public ArrayList<Pet> DeletePet(@PathVariable int id){
         for(Pet petDelete : petList){
             if(petDelete.getId()==id){
