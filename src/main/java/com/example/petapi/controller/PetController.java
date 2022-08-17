@@ -1,6 +1,6 @@
 package com.example.petapi.controller;
 
-import com.example.petapi.entity.Pet;
+import com.example.petapi.model.Pet;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;

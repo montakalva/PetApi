@@ -1,4 +1,4 @@
-package com.example.petapi.entity;
+package com.example.petapi.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
